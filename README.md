@@ -22,7 +22,7 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
 
 ### How to Use the Dataset
 
-###### In MATLAB
+##### In MATLAB
 1. Carga el archivo de datos:
    ```matlab
    data = load('sujeto1_PPG.mat');
