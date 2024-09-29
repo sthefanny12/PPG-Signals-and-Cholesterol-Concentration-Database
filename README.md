@@ -19,7 +19,7 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
   - `t`: Vector de tiempo (en segundos)
   - `y`: Datos de la señal PPG (valores de amplitud)
 
-### Cómo Usar el Conjunto de Datos
+### Cómo Usar el Conjunto de Datos:
 
 ###### In MATLAB
 1. Carga el archivo de datos:
@@ -27,7 +27,7 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
    data = load('sujeto1_PPG.mat');
    ppg_signal = data.y;  % Acceder a la señal PPG
    
-#### In python
+##### In python
 2. import scipy.io
  data = scipy.io.loadmat('tu_archivo.mat')
  ppg_signal = data['y'].flatten()  # Acceder a la señal PPG
@@ -37,5 +37,5 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
 Each subject's PPG signal is accompanied by its corresponding cholesterol concentration data, which can be integrated into your analysis for further research.
 
 ###Contributors
-For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, .
+For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, sthefanny.salas00@usc.edu.co.
 
