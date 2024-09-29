@@ -38,7 +38,7 @@ library(R.matlab)
 data <- readMat('sujeto1_PPG.mat')
 ppg_signal <- data$y  # Access PPG signal
 
-######## nnotations
+####### Anotations
 Each subject's PPG signal is accompanied by its corresponding cholesterol concentration data, which can be integrated into your analysis for further research.
 
 ######## Contributors
