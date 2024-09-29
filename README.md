@@ -10,10 +10,10 @@ This dataset contains PPG (Photoplethysmography) signals from 46 patients who we
   - **Python** (using the `scipy.io` library)
   - **R** (using the `R.matlab` package)
 
-##Data Collection
+#### Data Collection
 he data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 46 recordings contained a 8-min (480 s) PPGsignal. These were sampled at 125 Hz.
 
-### Descripción de Archivos
+##### Descripción de Archivos
 - **sujetoX_PPG.csv**: Cada archivo contiene las siguientes variables:
   - `fs`: Frecuencia de muestreo (en Hz)
   - `t`: Vector de tiempo (en segundos)
@@ -21,7 +21,7 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
 
 ### Cómo Usar el Conjunto de Datos
 
-#### In MATLAB
+###### In MATLAB
 1. Carga el archivo de datos:
    ```matlab
    data = load('sujeto1_PPG.mat');
