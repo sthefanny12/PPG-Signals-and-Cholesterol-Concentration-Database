@@ -28,9 +28,11 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
    ppg_signal = data.y;  % Acceder a la señal PPG
    
 ##### In python
-2. import scipy.io
- data = scipy.io.loadmat('tu_archivo.mat')
- ppg_signal = data['y'].flatten()  # Acceder a la señal PPG
+2.
+   ```Python:
+   import scipy.io:
+   data = scipy.io.loadmat('tu_archivo.mat')
+   ppg_signal = data['y'].flatten()  # Acceder a la señal PPG
 
 
 ###Annotations
