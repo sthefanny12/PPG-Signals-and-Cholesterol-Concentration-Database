@@ -25,7 +25,14 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
   - `t`: Time vector (in seconds)
   - `y`: PPG signal data (amplitude values)
 
-
+#### Blood Pressure Clasification
+| **Systolic BP (mm Hg)** |   | **Diastolic BP (mm Hg)** | **JNC 7** | **ACC/AHA 2017** |
+| :---------------: | :-: | :----------------: | :---------: | :----------------: |
+| <120 | and | <80 | Normal | Normal |
+| 120-129 | and | <80 | Prehypertension | Elevated |
+| 130-139 | or | 80-89 | Prehypertension | Stage1/Hypertension|
+| 140-159 | or | 90-99 | Stage 1/Hypertesion | Stage2/Hypertension |
+| ≥160 | or | ≥100 | Stage 2/Hypertension | Stage 3/Hypertension |
 ### How to Use the Dataset
 
 ##### In MATLAB
@@ -53,5 +60,10 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
 Each subject's PPG signal is accompanied by its corresponding cholesterol concentration data, which can be integrated into your analysis for further research.
 
 ###Contributors
-For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, sthefanny.salas00@usc.edu.co.
+For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, sthefanny.salas00@usc.edu.co
+
+####Referencias
+1. (S/f-b). Heart.org. Recuperado el 29 de septiembre de 2024, de https://www.heart.org/en/health-topics/high-blood-pressure
+
+
 
