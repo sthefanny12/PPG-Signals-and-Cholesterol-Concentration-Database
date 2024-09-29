@@ -33,9 +33,9 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
  ppg_signal = data['y'].flatten()  # Acceder a la señal PPG
 
 
-Annotations
+###Annotations
 Each subject's PPG signal is accompanied by its corresponding cholesterol concentration data, which can be integrated into your analysis for further research.
 
-Contributors
+###Contributors
 For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, .
 
