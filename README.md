@@ -26,13 +26,13 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
   - `y`: PPG signal data (amplitude values)
 
 #### Blood Pressure Clasification
-| **Systolic BP (mm Hg)** |   | **Diastolic BP (mm Hg)** | **JNC 7** | **ACC/AHA 2017** |
-| :---------------: | :-: | :----------------: | :---------: | :----------------: |
-| <120 | and | <80 | Normal | Normal |
-| 120-129 | and | <80 | Prehypertension | Elevated |
-| 130-139 | or | 80-89 | Prehypertension | Stage1/Hypertension|
-| 140-159 | or | 90-99 | Stage 1/Hypertesion | Stage2/Hypertension |
-| ≥160 | or | ≥100 | Stage 2/Hypertension | Stage 3/Hypertension |
+| **Blood Pressure Category** | **Systolic (mm Hg)** |   | **Diastolic (mm Hg)** |
+| :---------------: | :----------------: | :---------: | :-: | :---------: |
+| Normal | <120 | and | < 80 |
+| Elevated | 120 -129 | and | < 80 |
+| Hypertension (stage 1)| 130 -139  | or | 80 - 89|
+| Hypertension (stage 2) | >=140 | or | >= 90 |
+| Hypertensive crisis | >180 | and/or | or | >120 |
 ### How to Use the Dataset
 
 ##### In MATLAB
