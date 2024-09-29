@@ -1,0 +1,10 @@
+git clone https://github.com/usuario/nombre-repositorio.git
+cd nombre- Data
+mkdir -p CarpetaPrincipal/Subcarpeta1
+mkdir -p CarpetaPrincipal/Subcarpeta2
+touch CarpetaPrincipal/Subcarpeta1/archivo.txt
+touch CarpetaPrincipal/Subcarpeta2/archivo.txt
+git add .
+git commit -m "Añadir carpetas y subcarpetas"
+git push origin main
+
