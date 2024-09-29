@@ -14,7 +14,12 @@ This dataset contains PPG (Photoplethysmography) signals from 46 patients who we
 he data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 46 recordings contained a 8-min (480 s) PPGsignal. These were sampled at 125 Hz.
 
 #####File Descriptions
-
+46 (32 womens and 14 mens)To estimate blood pressure, we analyzed Photoplethysmography (PPG) signals, which contain information about the variation in blood volume within blood vessels. The process consisted of the following steps:
+ 1-Acquisition of the PPG Signal: The PPG signals of 46 patients were obtained and stored in .mat files. Each file contained the PPG signal, the sampling time, and the sampling frequency.
+ 2-Feature Extraction: Characteristics such as rise time, fall time, time between pulses, and peak amplitude were extracted from the PPG signal. These features are crucial as they correlate with blood pressure.
+ 3-Blood Pressure Classification: Thresholds based on medical literature were used to classify each patient into normotensive, prehypertensive, or hypertensive categories. For instance, longer rise times and reduced amplitudes can indicate increased arterial stiffness, typical in hypertensive individuals.
+ 4-Validation: The results were compared with expected blood pressure values to validate the accuracy of the model.
+ 
 - **sujetoX_PPG.mat**: Each file contains the following variables:
   - `fs`: Sampling frequency (in Hz)
   - `t`: Time vector (in seconds)
