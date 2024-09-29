@@ -14,6 +14,7 @@ This dataset contains PPG (Photoplethysmography) signals from 46 patients who we
 he data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 46 recordings contained a 8-min (480 s) PPGsignal. These were sampled at 125 Hz.
 
 #####File Descriptions
+
 - **sujetoX_PPG.mat**: Each file contains the following variables:
   - `fs`: Sampling frequency (in Hz)
   - `t`: Time vector (in seconds)
