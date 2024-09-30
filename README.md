@@ -45,6 +45,21 @@ Hypertension is a disease characterized by a constant elevation of blood pressur
 | Adults | SBP 110 - 134 Y DBP 85 -77 |
 | Advanced ages | SBP 121 - 147 Y DBP 83 - 91 |
 
+#### Data files:
+The dataset was made in 3 formats:
+- CSV (comma-separated-value) format
+- Matlab (r) format
+- Python: in this format we apply the scipy.io library to read .mat files.
+
+#### CSV format:
+For CSV files, a folder is provided within data called “Subjects_csv” which contains:
+- the PPG record for each patient which is assigned a number “SUBJECT##_PPG.csv”, each file contains the frequency, time and sampled signal.
+
+#### Python library:
+Python files:
+- For the python files we made use of one of its famous libraries “scipy.io”, with this library we use the files uploaded in this repository both as .csv and .mat since it allows us to work with both. 
+
+
 ### How to Use the Dataset
 
 ##### In MATLAB
@@ -68,13 +83,13 @@ Hypertension is a disease characterized by a constant elevation of blood pressur
    ppg_signal <- data$y  # Access PPG signal
 
 
-###Annotations
+### Annotations
 Each subject's PPG signal is accompanied by its corresponding cholesterol concentration data, which can be integrated into your analysis for further research.
 
-###Contributors
+### Contributors
 For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, sthefanny.salas00@usc.edu.co
 
-####Referencias
+#### References:
 1. (S/f-b). Heart.org. Recuperado el 29 de septiembre de 2024, de https://www.heart.org/en/health-topics/high-blood-pressure
 2. (Valores normales de la presión arterial, 2022)
 Valores normales de la presión arterial. (2022, agosto 4). Viamed Salud |; Viamed Salud. https://www.viamedsalud.com/patologias/cardiologia/valores-normales-presion-arterial/
