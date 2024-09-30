@@ -90,9 +90,9 @@ Each subject's PPG signal is accompanied by its corresponding cholesterol concen
 For any inquiries or issues regarding the dataset, please contact mateo.riascos00@usc.edu.co, sthefanny.salas00@usc.edu.co
 
 #### References:
-1. (S/f-b). Heart.org. Recuperado el 29 de septiembre de 2024, de https://www.heart.org/en/health-topics/high-blood-pressure
-2. (Valores normales de la presión arterial, 2022)
-Valores normales de la presión arterial. (2022, agosto 4). Viamed Salud |; Viamed Salud. https://www.viamedsalud.com/patologias/cardiologia/valores-normales-presion-arterial/
+1. (S/f-b). Heart.org. Retrieved September 29, 2024, from https://www.heart.org/en/health-topics/high-blood-pressure
+2. (Normal blood pressure values, 2022)
+Normal blood pressure values. (2022, August 4). Viamed Salud |; Viamed Salud. https://www.viamedsalud.com/patologias/cardiologia/valores-normales-presion-arterial/
 
 
 
