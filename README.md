@@ -25,14 +25,26 @@ he data were obtained on an outpatient basis, i.e., none of the individuals were
   - `t`: Time vector (in seconds)
   - `y`: PPG signal data (amplitude values)
 
-#### Blood Pressure Clasification
-| **Blood Pressure Category** | **Systolic (mm Hg)** |   | **Diastolic (mm Hg)** |
-| :---------------: | :----------------: | :---------: | :-: | :---------: |
+#### Blood Pressure Clasification:
+
+Hypertension is a disease characterized by a constant elevation of blood pressure. It is measured with two numbers: systolic pressure, which reflects the pressure during heartbeats, and diastolic pressure, which indicates the pressure at rest between heartbeats. Although both values ​​are important, systolic pressure is especially relevant in people over 50 years of age, since its increase can indicate a higher risk of cardiovascular diseases due to hardening of the arteries and plaque buildup.
+
+| **Blood Pressure Category** | **Systolic BP (mm Hg)** |   | **Diastolic BP (mm Hg)** |
+| :---------------: | :----------------: | :-: | :---------: |
 | Normal | <120 | and | < 80 |
-| Elevated | 120 -129 | and | < 80 |
+| Elevated | 120 - 129 | and | < 80 |
 | Hypertension (stage 1)| 130 -139  | or | 80 - 89|
 | Hypertension (stage 2) | >=140 | or | >= 90 |
-| Hypertensive crisis | >180 | and/or | or | >120 |
+| Hypertensive crisis | >180 | and / or | >120 |
+
+#### Recomendations for BP
+
+| **Age** | **Blood Pressure Level (mm Hg)** |   
+| :---------------: | :----------------: | 
+| Youths | SBP 105 - 120 Y DBP 80 -73| 
+| Adults | SBP 110 - 134 Y DBP 85 -77 |
+| Advanced ages | SBP 121 - 147 Y DBP 83 - 91 |
+
 ### How to Use the Dataset
 
 ##### In MATLAB
