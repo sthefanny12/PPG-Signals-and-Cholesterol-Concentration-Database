@@ -50,7 +50,7 @@ Hypertension is a disease characterized by a constant elevation of blood pressur
 ##### In MATLAB
 1. Carga el archivo de datos:
    ```matlab
-   data = load('sujeto1_PPG.mat');
+   data = load('sujeto1_PPG##.mat');
    ppg_signal = data.y;  % Acceder a la señal PPG
    
 ##### In python
