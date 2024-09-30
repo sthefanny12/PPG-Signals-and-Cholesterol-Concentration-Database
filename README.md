@@ -64,6 +64,9 @@ For any inquiries or issues regarding the dataset, please contact mateo.riascos0
 
 ####Referencias
 1. (S/f-b). Heart.org. Recuperado el 29 de septiembre de 2024, de https://www.heart.org/en/health-topics/high-blood-pressure
+2. (Valores normales de la presión arterial, 2022)
+Valores normales de la presión arterial. (2022, agosto 4). Viamed Salud |; Viamed Salud. https://www.viamedsalud.com/patologias/cardiologia/valores-normales-presion-arterial/
+
 
 
 
